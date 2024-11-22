@@ -21,4 +21,4 @@ fig = px.scatter(df[df['year']==year], x="gdpPercap", y="lifeExp",
                  hover_name="country", log_x=True, size_max=60)
 
 
-st.plotly_chart(fig)
+st.plotly_chart(fig)        
